@@ -1,0 +1,26 @@
+/* 기본 서식 */
+@charset "utf-8";
+
+/* 프리텐다드 */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+/* 나눔명조 */
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+/* 본명조 */
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222;
+}
+
+body{
+  background: #FFFCF8;}
